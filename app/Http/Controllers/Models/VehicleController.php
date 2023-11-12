@@ -39,9 +39,9 @@ class VehicleController extends Controller
             'manufacturer' => 'required',
             'price' => 'required|numeric',
             'fuel_type' => 'required_if:type,Car',
-            'trunk_size' => 'required_if:type,Car',
+            'trunk_area' => 'required_if:type,Car',
             'wheel_quantity' => 'required_if:type,Truck',
-            'cargo_size' => 'required_if:type,Truck',
+            'cargo_area' => 'required_if:type,Truck',
             'fuel_capacity' => 'required_if:type,Motorcycle',
             'trunk_size' => 'required_if:type,Motorcycle',
         ]);

@@ -26,7 +26,6 @@
                 <th>Telephone Number</th>
                 <td>{{ $customer->telephone_number }}</td>
             </tr>
-            @endif
         </table>
     </div>
 @endsection
